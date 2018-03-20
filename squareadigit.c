@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 int main(void) {
-	int n,a,mul=0,t;
+	int n,b,m=0,t;
 	scanf("%d",&n);
 	while(n!=0)
 	{
-		a=n%10;
-		t=a*a;
-		mul=mul+t;
+		b=n%10;
+		t=b*b;
+		m=m+t;
 		n=n/10;
 	}
-	printf("%d",mul);
+	printf("%d",m);
 	return 0;
 }
